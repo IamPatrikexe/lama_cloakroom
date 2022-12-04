@@ -1,10 +1,10 @@
 Config = {}
-Config.Locale = 'en'
-Config.DrawDistance = 10
+Config.Locale = 'hu' --Nyelv Angol=en/Magyar=hu/
+Config.DrawDistance = 10 -- Milyen messze legyen látható a CP
 
-Config.MarkerSize   = {x = 0.5, y = 0.5, z = 0.35}
-Config.MarkerColor  = {r = 255, g = 255, b = 23}
-Config.MarkerType   = 21 -- -1 for no marker
+Config.MarkerSize   = {x = 0.5, y = 0.5, z = 0.35} -- CP mérete
+Config.MarkerColor  = {r = 255, g = 255, b = 23} -- CP Színe
+Config.MarkerType   = 21 -- Ha nem szeretnél markert akkor -1! Itt találod a markereket! [https://docs.fivem.net/docs/game-references/markers]
 
 Config.Zones = {
   vector3(71.5121, -1389.5583, 29.3822),
