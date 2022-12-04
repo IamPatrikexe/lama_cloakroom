@@ -6,7 +6,7 @@ function OpenMainMenu()
 	ESX.UI.Menu.CloseAll()
 
 	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'main_outfit', {
-    	title    = 'Outfit',
+    	title    = 'Ruhatár',
     	align    = 'top-left',
     	elements = {
 			{label = _U('change_outfit'), value = 'change_outfit'},
